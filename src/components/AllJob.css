@@ -1,0 +1,66 @@
+*, div, button, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: poppins;
+}
+.container{
+    margin: 10% auto;
+    width: 300px;
+    height: 300px;
+    text-align: right;
+}
+.screen{
+    background-color: #858694;
+    height: 40px;
+    font-size: 2em;
+    color: #fff;
+    text-align: right;
+    padding: 0 0.3em 0 0.3em;
+    cursor: grab;
+    overflow: hidden;
+}
+
+button{
+    height: 50px;
+    width: 25%;
+    font-weight: 500;
+    font-size: 1.5em;
+    background-color: #E0E0E0;
+    border: 1px solid #00000050;
+}
+button:hover{
+    background-color: #f0f0f0;
+}
+.buttons-row{
+    display: flex;
+    justify-content: flex-end;
+}
+.buttons-row-buttons-part1{
+    flex: 50%;
+}
+.buttons-row-buttons-part1 .buttons-row-button-expand{
+    width: 100%;
+}
+.buttons-row-buttons-part2{
+    flex: 50%;
+}
+.buttons-row-buttons-part2 > button{
+    width: 50%;
+}
+.buttons-row > button:last-child{
+    background-color: #F5923E;
+}
+.buttons-row > button:last-child:hover{
+    background-color: #ec7914;
+}
+.buttons-row-buttons-part2 > button:last-child{
+    background-color: #F5923E;
+}
+.buttons-row-buttons-part2 > button:last-child:hover{
+    background-color: #ec7914;
+}
+
+
